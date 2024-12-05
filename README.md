@@ -53,3 +53,9 @@ Here are some ideas to get you started:
 		<img width="900em" src="./profile-3d-contrib/profile-night-rainbow.svg">
 	</a>
 </p>
+
+## 🚀GitHub Metrics
+
+<p align="center">
+	<img width="625em" src="https://github.com/Abson-dev/Abson-dev/blob/main/github-metrics.svg" />
+</p>
