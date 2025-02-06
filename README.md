@@ -1,4 +1,62 @@
-## Hi there 👋
+# 👋 Hi, I'm Aboubacar Hema
+
+📍 Dakar, Senegal | 📧 a.hema@cgiar.org  
+🔗 [Google Scholar](https://scholar.google.com) | 🔗 [ORCID](https://orcid.org/0000-0001-9756-7270)  
+
+## 🔬 About Me  
+I am a **Research Analyst & Data Scientist** specializing in food security, poverty analysis, and economic development. I have extensive experience in **data science, remote sensing, and econometrics**, using advanced statistical and machine learning techniques to analyze large datasets for policy insights.  
+
+🌱 **Fields of Interest:**  
+- 🥘 **Food Security & Food Systems**  
+- 📊 **Data Science & Statistical Modeling**  
+- 📡 **Remote Sensing & GIS**  
+- 💡 **Impact Evaluation & Policy Analysis**  
+
+---
+
+## 📚 **Education**  
+🎓 **MITx MicroMasters in Data, Economics, and Design of Policy** (2023-2024)  
+🎓 **MITx MicroMasters in Statistics and Data Science** (2022-2023)  
+🎓 **Statistician Engineer (Distinction)** – ENSAE Dakar (2016-2020)  
+🎓 **Bachelor’s in Computer Science (Distinction)** – University of Ouagadougou (2012-2016)  
+
+---
+
+## 💼 **Professional Experience**  
+👨‍🔬 **Research Analyst** – International Food Policy Research Institute (IFPRI) (2022–Present)  
+🔹 Research on **food security, poverty, and livelihoods** in Africa.  
+🔹 Leading **capacity-building** projects and developing policy analysis tools.  
+🔹 Implementing **spatial food security typologies** in multiple countries.  
+
+📊 **Data Analyst** – International Organization for Migration (IOM) (2022–2023)  
+🔹 Conducted **impact evaluations** and managed survey datasets.  
+🔹 Analyzed **mental health and psychosocial support (MHPSS)** survey data in West Africa.  
+
+📡 **Remote Sensing & Machine Learning Engineer** – CIRAD (2020–2021)  
+🔹 Modeled **tree species distribution** in agroforestry systems using **GIS & machine learning**.  
+
+---
+
+## ⚙️ **Technical Skills**  
+🔹 **Programming & Statistical Software:** R, Python, Stata, SPSS  
+🔹 **Data Visualization:** R Shiny, Dash, Tableau, Power BI  
+🔹 **GIS & Remote Sensing:** ArcGIS, QGIS, Google Earth Engine  
+🔹 **Version Control & Collaboration:** Git/GitHub  
+
+---
+
+## 📄 **Publications & Research Contributions**  
+I have co-authored multiple research papers on food security, poverty, and economic resilience in Africa. My research explores **political violence, agricultural value chains, and bioenergy impacts**.  
+
+📜 Full list of publications: [Google Scholar](https://scholar.google.com)  
+
+---
+
+## 🌎 **Languages**  
+🗣 **French, Bambara, Senoufo** (Native) | **English** (Proficient)  
+
+📬 **Feel free to connect with me!**  
+
 
 
 <h2>GitHub Analytics
