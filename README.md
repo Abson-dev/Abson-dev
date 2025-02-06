@@ -24,9 +24,7 @@ I am a **Research Analyst & Data Scientist** specializing in food security, pove
 
 ## 💼 **Professional Experience**  
 👨‍🔬 **Research Analyst** – International Food Policy Research Institute (IFPRI) (2022–Present)  
-🔹 Research on **food security, poverty, and livelihoods** in Africa.  
-🔹 Leading **capacity-building** projects and developing policy analysis tools.  
-🔹 Implementing **spatial food security typologies** in multiple countries.  
+🔹 Research on **food security, poverty, and livelihoods** in Africa. 
 
 📊 **Data Analyst** – International Organization for Migration (IOM) (2022–2023)  
 🔹 Conducted **impact evaluations** and managed survey datasets.  
