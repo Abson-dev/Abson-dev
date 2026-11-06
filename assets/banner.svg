@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Aboubacar HEMA, Research Analyst and Data Scientist, IFPRI / CGIAR">
+  <title>Aboubacar HEMA</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b3d2e"/>
+      <stop offset="1" stop-color="#1f7a5a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="230" rx="14" fill="url(#g)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1.4">
+    <path d="M760 230 C820 160 900 150 980 110 S1130 40 1200 30"/>
+    <path d="M800 230 C860 175 935 168 1010 132 S1145 70 1200 62"/>
+    <path d="M840 230 C900 190 970 186 1040 154 S1160 100 1200 94"/>
+    <path d="M880 230 C940 205 1005 204 1070 176 S1170 130 1200 126"/>
+    <path d="M920 230 C975 218 1040 220 1100 198 S1180 160 1200 158"/>
+  </g>
+  <g fill="#ffffff" fill-opacity="0.16">
+    <circle cx="1040" cy="58" r="3"/><circle cx="1072" cy="76" r="2"/><circle cx="1110" cy="50" r="2.5"/>
+    <circle cx="990" cy="86" r="2"/><circle cx="1140" cy="92" r="2"/>
+  </g>
+  <text x="56" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="600" fill="#ffffff">Aboubacar HEMA</text>
+  <text x="58" y="142" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#ffffff" fill-opacity="0.92">Research Analyst &amp; Data Scientist · IFPRI / CGIAR · Dakar, Senegal</text>
+  <text x="58" y="180" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="0.6" fill="#cfe9dd">FOOD SECURITY · CLIMATE AND CONFLICT SHOCKS · EARTH OBSERVATION · AI AGENTS</text>
+</svg>

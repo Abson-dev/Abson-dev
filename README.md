@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b3d2e,100:1f7a5a&height=170&section=header&text=Aboubacar%20HEMA&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Research%20Analyst%20%26%20Data%20Scientist%20%7C%20IFPRI%20%2F%20CGIAR&descAlignY=60&descSize=16" width="100%" alt="Aboubacar HEMA banner"/>
+<img src="assets/banner.svg" width="100%" alt="Aboubacar HEMA, Research Analyst and Data Scientist, IFPRI / CGIAR"/>
 
 **Food security · Climate and conflict shocks · Earth observation · Applied econometrics · Sahel and Sub-Saharan Africa**
 
@@ -102,7 +102,7 @@ Eleven practical sessions taught at ENSAE Dakar: vector and raster data, zonal s
 
 ## AI agents for humanitarian data
 
-> Tool-using LLM assistants built on top of my data pipelines. The model answers questions in English or French only through **read-only, tested tools**; the server validates every published table and chart, attaches the analytical cautions, and lists the tool calls behind each answer. Each runs on synthetic data out of the box, with no API key needed to try the tools.
+> Tool-using LLM assistants built on top of my data pipelines. The model answers questions in English or French only through **read-only, tested tools**; the server validates every published table and chart, attaches the analytical cautions, and lists the tool calls behind each answer. No household record ever reaches the model. Each assistant runs on invented demo data out of the box, and the tools work without an API key. Status: tested offline; the quality of live-model answers is measured by each repository's evaluation questions.
 
 <table>
 <tr>
@@ -111,11 +111,23 @@ Eleven practical sessions taught at ENSAE Dakar: vector and raster data, zonal s
 ### [ENSA data assistant](https://github.com/Abson-dev/ensa-chad-data-assistant)
 **AI agent · Food security surveys, Chad**
 
-Ask how the 14 ENSA rounds were harmonised and what they show. **15 read-only tools** trace any variable across rounds, explain recodes and quality checks, compare **58 indicators** by round, region and sex of the household head, and draft crosswalk mappings for a new round. No household record ever reaches the model; regional cells under 30 households are suppressed.
+Ask how the 14 ENSA rounds were harmonised and what they show. **15 read-only tools** trace any variable across rounds, explain recodes and quality checks, compare **58 indicators** by round, region and sex of the household head, and draft crosswalk mappings for a new round. Regional cells under 30 households are suppressed.
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-tool%20use-D97757?style=flat-square&logo=anthropic&logoColor=white) ![Web app](https://img.shields.io/badge/web%20app-CLI-555555?style=flat-square) [![Tests](https://github.com/Abson-dev/ensa-chad-data-assistant/actions/workflows/tests.yml/badge.svg)](https://github.com/Abson-dev/ensa-chad-data-assistant/actions/workflows/tests.yml)
 
 </td>
+<td width="50%" valign="top">
+
+### [WFP Chad data assistant](https://github.com/Abson-dev/wfp-chad-data-assistant) ![New](https://img.shields.io/badge/new-1f7a5a?style=flat-square)
+**AI agent · Resilience programme surveys, Chad**
+
+Ask how the 10 survey rounds of WFP's Integrated Resilience Programme (17,255 households) were merged, which validation checks fail, which data issues remain open, and what **55 indicators** show by round and region, with WFP's reconciled costs. The server refuses charts that join lean-season and post-harvest rounds. Evaluated on **18 questions** with expected values and caveats.
+
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-tool%20use-D97757?style=flat-square&logo=anthropic&logoColor=white) ![Skill](https://img.shields.io/badge/Claude%20Code-skill-555555?style=flat-square) [![Tests](https://github.com/Abson-dev/wfp-chad-data-assistant/actions/workflows/tests.yml/badge.svg)](https://github.com/Abson-dev/wfp-chad-data-assistant/actions/workflows/tests.yml)
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [MDO Niger assistant](https://github.com/Abson-dev/mdo-niger-assistant)
@@ -126,8 +138,6 @@ Ask what Niger's weekly notifiable disease surveillance shows: trends, seasonali
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-tool%20use-D97757?style=flat-square&logo=anthropic&logoColor=white) ![Maps](https://img.shields.io/badge/charts-maps-1f7a5a?style=flat-square) ![Skill](https://img.shields.io/badge/Claude%20Code-skill-555555?style=flat-square)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Ituri assistant](https://github.com/Abson-dev/ituri-assistant)
@@ -138,18 +148,12 @@ Question-and-answer agent on Ituri's IDSR surveillance data, packaged as a Claud
 ![Python](https://img.shields.io/badge/Python-stdlib%20only-3776AB?style=flat-square&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-export%20%26%20evals-276DC3?style=flat-square&logo=r&logoColor=white) ![Skill](https://img.shields.io/badge/Claude%20Code-skill-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
 </td>
-<td width="50%" valign="top">
-
-### [FAYAMA.AI](https://fayama-ai.netlify.app/)
-**AI venture · Food security and agricultural transformation**
-
-AI startup I founded to build decision tools for food security, poverty targeting and agricultural transformation in Africa, drawing on satellite data, household surveys and machine learning. Multilingual website in 19 languages.
-
-![AI](https://img.shields.io/badge/AI-food%20security-1f7a5a?style=flat-square) ![Earth observation](https://img.shields.io/badge/Earth%20observation-satellite-4285F4?style=flat-square) ![Website](https://img.shields.io/badge/website-live-success?style=flat-square)
-
-</td>
 </tr>
 </table>
+
+**Venture:** [FAYAMA.AI](https://fayama-ai.netlify.app/), the AI startup I founded to build decision tools for food security, poverty targeting and agricultural transformation in Africa, combining satellite data, household surveys and machine learning.
+
+---
 
 ## Research code
 
@@ -157,6 +161,16 @@ AI startup I founded to build decision tools for food security, poverty targetin
 
 <table>
 <tr>
+<td width="50%" valign="top">
+
+### [WFP Chad resilience CBA: survey data merging](https://github.com/Abson-dev/WFP_Chad_Cost_Benefit_Analysis_data_merging)
+**Impact evaluation · Cost-benefit analysis · 2018 to 2023** · [Report](https://bookdown.org/aboubacarhema94/WFP_Chad_Cost_Benefit_Analysis_data_merging/)
+
+Household dataset for IFPRI's cost-benefit analysis of WFP's Integrated Resilience Programme in Chad: **10 survey rounds**, **17,255 households**, 626 columns from 26 modules, WFP costs reconciled by activity, a Shiny dashboard of checks and results, and a package for public release on IFPRI Dataverse. Known defects are documented, and each fix writes a new versioned file.
+
+![R](https://img.shields.io/badge/R-Markdown%20%7C%20Shiny-276DC3?style=flat-square&logo=r&logoColor=white) ![Stata](https://img.shields.io/badge/Stata-do--files-1A5F91?style=flat-square) ![Dataverse](https://img.shields.io/badge/IFPRI%20Dataverse-release-1f7a5a?style=flat-square)
+
+</td>
 <td width="50%" valign="top">
 
 ### [Household coping with covariate shocks, Burkina Faso](https://github.com/Abson-dev/ANALYZE-COPING-STRATEGY-BURKINA-FASO)
@@ -167,6 +181,8 @@ How households respond to conflict, climate and price shocks, using eleven waves
 ![Stata](https://img.shields.io/badge/Stata-1A5F91?style=flat-square) ![Data](https://img.shields.io/badge/11%20survey%20waves-shock%20linkage-1f7a5a?style=flat-square)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Household coping with covariate shocks, Mali](https://github.com/Abson-dev/ANALYZE-COPING-STRATEGY-MALI)
@@ -177,8 +193,6 @@ Companion analysis for Mali using association rule mining to identify which copi
 ![R](https://img.shields.io/badge/R-arules-276DC3?style=flat-square&logo=r&logoColor=white) ![Method](https://img.shields.io/badge/association%20rules-mining-1f7a5a?style=flat-square)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Political violence in the G5 Sahel countries](https://github.com/Abson-dev/Political-Violence-in-the-G5-Sahel-Countries)
@@ -189,6 +203,8 @@ Implementation in Google Earth Engine of ACLED's conflict diffusion indicator: s
 ![Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-4285F4?style=flat-square&logo=googleearth&logoColor=white) ![ACLED](https://img.shields.io/badge/ACLED-WorldPop-8b1e1e?style=flat-square)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Small area poverty estimation, Burkina Faso](https://github.com/Abson-dev/Application-of-Fay-Herriot-Model-for-Burkina-Faso)
@@ -199,8 +215,6 @@ Poverty headcount (FGT0) below the levels where the EHCVM 2021 survey is represe
 ![R](https://img.shields.io/badge/R-SAE-276DC3?style=flat-square&logo=r&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-ML-555555?style=flat-square) ![Survey](https://img.shields.io/badge/EHCVM%202021-3%2C227%20households-1f7a5a?style=flat-square)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Kenya soil, food, nutrition and policy database](https://github.com/Abson-dev/kenya-fnp-db)
@@ -211,6 +225,8 @@ Configuration-driven, provenance-tracked pipeline assembling 30 sources across f
 ![Python](https://img.shields.io/badge/Python-package-3776AB?style=flat-square&logo=python&logoColor=white) ![Sources](https://img.shields.io/badge/30%20sources-5%20layers-1f7a5a?style=flat-square)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Field boundaries for Burkina Faso](https://github.com/Abson-dev/ftw-burkina-faso)
@@ -221,14 +237,16 @@ Guide to replicating the Fields of The World global field boundary map at 10 m f
 ![Sentinel-2](https://img.shields.io/badge/Sentinel--2-10%20m-4285F4?style=flat-square) ![Deep learning](https://img.shields.io/badge/U--Net-segmentation-555555?style=flat-square)
 
 </td>
+<td width="50%" valign="top">
+
+### [More on GitHub →](https://github.com/Abson-dev?tab=repositories&type=source)
+**All public repositories**
+
+Course material in statistics and spatial data science, poverty mapping for six West African countries, Earth observation scripts and earlier research code.
+
+</td>
 </tr>
 </table>
-
-<div align="center">
-
-**[Browse all repositories →](https://github.com/Abson-dev?tab=repositories&type=source)**
-
-</div>
 
 ---
 
@@ -265,11 +283,20 @@ Guide to replicating the Fields of The World global field boundary map at 10 m f
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Abson-dev&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent&title_color=1f7a5a&icon_color=1f7a5a" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abson-dev&layout=compact&langs_count=8&hide_border=true&theme=transparent&title_color=1f7a5a" alt="Top languages"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg">
+  <img height="165" src="profile/stats-light.svg" alt="GitHub stats for Abson-dev"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg">
+  <img height="165" src="profile/top-langs-light.svg" alt="Most used languages"/>
+</picture>
 
-<img src="https://streak-stats.demolab.com/?user=Abson-dev&hide_border=true&theme=transparent&ring=1f7a5a&fire=1f7a5a&currStreakLabel=1f7a5a" alt="GitHub streak"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/streak-dark.svg">
+  <img src="profile/streak-light.svg" alt="Contribution streak"/>
+</picture>
 
-![Profile views](https://komarev.com/ghpvc/?username=Abson-dev&color=1f7a5a&style=flat-square&label=Profile+views)
+<sub>Cards regenerated daily by a GitHub Action in this repository.</sub>
 
 </div>
