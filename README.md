@@ -20,7 +20,7 @@
 
 I am a Research Analyst and Data Scientist at the **International Food Policy Research Institute (IFPRI / CGIAR)**, Development Strategies and Governance Unit, based in Dakar, Senegal. My work turns household surveys, routine surveillance data, satellite observations and conflict event records into reproducible evidence for food security and humanitarian decision making.
 
-- **Research focus:** food security measurement, household shocks and coping strategies, political violence and conflict diffusion, climate variability, impact evaluation (including mental health and psychosocial outcomes).
+- **Research focus:** food security measurement, household shocks and coping strategies, political violence and conflict diffusion, climate variability, outbreak epidemiology and disease surveillance, impact evaluation (including mental health and psychosocial outcomes).
 - **Methods:** applied econometrics, spatial statistics, species distribution modelling, machine learning, AI agent development, survey harmonisation, cost-benefit analysis.
 - **Current direction:** operational early warning systems that combine satellite data, climate reanalysis and sparse ground records into calibrated, interpretable risk signals.
 - **Teaching:** visiting lecturer in statistics, spatial data science and Python at ENSAE Dakar and Université Numérique Cheikh Hamidou Kane.
@@ -118,7 +118,7 @@ Ask how the 14 ENSA rounds were harmonised and what they show. **15 read-only to
 </td>
 <td width="50%" valign="top">
 
-### [WFP Chad data assistant](https://github.com/Abson-dev/wfp-chad-data-assistant) ![New](https://img.shields.io/badge/new-1f7a5a?style=flat-square)
+### [WFP Chad data assistant](https://github.com/Abson-dev/wfp-chad-data-assistant)
 **AI agent · Resilience programme surveys, Chad**
 
 Ask how the 10 survey rounds of WFP's Integrated Resilience Programme (17,255 households) were merged, which validation checks fail, which data issues remain open, and what **55 indicators** show by round and region, with WFP's reconciled costs. The server refuses charts that join lean-season and post-harvest rounds. Evaluated on **18 questions** with expected values and caveats.
@@ -173,6 +173,40 @@ Household dataset for IFPRI's cost-benefit analysis of WFP's Integrated Resilien
 </td>
 <td width="50%" valign="top">
 
+### [Ebola Bundibugyo response, Mongbwalu (DRC)](https://github.com/Abson-dev/ebola-mongbwalu-drc) ![New](https://img.shields.io/badge/new-1f7a5a?style=flat-square)
+**Outbreak epidemiology · Health surveillance · 2026**
+
+Reproducible pipeline for the MSF Ebola treatment centre in Mongbwalu, Ituri: weekly epidemiological sitrep, line-list analysis report, a daily data quality checklist for the data entry team, and DHIS2 analyses (epidemic curves, transmission chains, Rt). Patient data never leave the analyst's machine; CI and demos run on synthetic data. Code © MSF OCG; reuse requires agreement.
+
+![R](https://img.shields.io/badge/R-%E2%89%A5%204.3-276DC3?style=flat-square&logo=r&logoColor=white) ![Quarto](https://img.shields.io/badge/Quarto-reports-75AADB?style=flat-square&logo=quarto&logoColor=white) [![CI](https://github.com/Abson-dev/ebola-mongbwalu-drc/actions/workflows/ci.yml/badge.svg)](https://github.com/Abson-dev/ebola-mongbwalu-drc/actions/workflows/ci.yml)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [DRC conflict, climate and population exposure](https://github.com/Abson-dev/drc-conflict-climate-exposure) ![New](https://img.shields.io/badge/new-1f7a5a?style=flat-square)
+**Conflict · Climate · Spatial exposure measures**
+
+Exposure measures for survey clusters (10, 25 and 50 km buffers) and the 519 Admin 3 units of the DRC: ACLED conflict events 1997 to 2025, WorldPop population and age-sex structure 2015 to 2025, and ERA5-Land temperature anomalies 1991 to 2025, with an ACLED versus UCDP GED validation. Outputs in CSV and Stata.
+
+![Python](https://img.shields.io/badge/Python-geospatial-3776AB?style=flat-square&logo=python&logoColor=white) ![ACLED](https://img.shields.io/badge/ACLED-UCDP-8b1e1e?style=flat-square) ![ERA5-Land](https://img.shields.io/badge/ERA5--Land-WorldPop-4285F4?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### [Agrifood employment baseline, 17 African countries](https://github.com/Abson-dev/mcf-agrifood-scenarios-study) ![New](https://img.shields.io/badge/new-1f7a5a?style=flat-square)
+**Food systems · Labour · Data acquisition** · *in progress*
+
+Data acquisition for the Mastercard Foundation agrifood scenarios study with IFPRI: a verified source matrix and access register for the labour force and household surveys of 17 countries, with scripts that validate the register, build the Excel deliverables, download from the World Bank Microdata Library and block any microdata from being committed.
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white) ![Surveys](https://img.shields.io/badge/LFS-EHCVM-1f7a5a?style=flat-square) [![CI](https://github.com/Abson-dev/mcf-agrifood-scenarios-study/actions/workflows/ci.yml/badge.svg)](https://github.com/Abson-dev/mcf-agrifood-scenarios-study/actions/workflows/ci.yml)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### [Household coping with covariate shocks, Burkina Faso](https://github.com/Abson-dev/ANALYZE-COPING-STRATEGY-BURKINA-FASO)
 **Shocks · Coping strategies · 2019 to 2023**
 
@@ -181,8 +215,6 @@ How households respond to conflict, climate and price shocks, using eleven waves
 ![Stata](https://img.shields.io/badge/Stata-1A5F91?style=flat-square) ![Data](https://img.shields.io/badge/11%20survey%20waves-shock%20linkage-1f7a5a?style=flat-square)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Household coping with covariate shocks, Mali](https://github.com/Abson-dev/ANALYZE-COPING-STRATEGY-MALI)
@@ -193,6 +225,8 @@ Companion analysis for Mali using association rule mining to identify which copi
 ![R](https://img.shields.io/badge/R-arules-276DC3?style=flat-square&logo=r&logoColor=white) ![Method](https://img.shields.io/badge/association%20rules-mining-1f7a5a?style=flat-square)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Political violence in the G5 Sahel countries](https://github.com/Abson-dev/Political-Violence-in-the-G5-Sahel-Countries)
@@ -203,8 +237,6 @@ Implementation in Google Earth Engine of ACLED's conflict diffusion indicator: s
 ![Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-4285F4?style=flat-square&logo=googleearth&logoColor=white) ![ACLED](https://img.shields.io/badge/ACLED-WorldPop-8b1e1e?style=flat-square)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Small area poverty estimation, Burkina Faso](https://github.com/Abson-dev/Application-of-Fay-Herriot-Model-for-Burkina-Faso)
@@ -215,6 +247,8 @@ Poverty headcount (FGT0) below the levels where the EHCVM 2021 survey is represe
 ![R](https://img.shields.io/badge/R-SAE-276DC3?style=flat-square&logo=r&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-ML-555555?style=flat-square) ![Survey](https://img.shields.io/badge/EHCVM%202021-3%2C227%20households-1f7a5a?style=flat-square)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Kenya soil, food, nutrition and policy database](https://github.com/Abson-dev/kenya-fnp-db)
@@ -225,8 +259,6 @@ Configuration-driven, provenance-tracked pipeline assembling 30 sources across f
 ![Python](https://img.shields.io/badge/Python-package-3776AB?style=flat-square&logo=python&logoColor=white) ![Sources](https://img.shields.io/badge/30%20sources-5%20layers-1f7a5a?style=flat-square)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Field boundaries for Burkina Faso](https://github.com/Abson-dev/ftw-burkina-faso)
@@ -237,16 +269,43 @@ Guide to replicating the Fields of The World global field boundary map at 10 m f
 ![Sentinel-2](https://img.shields.io/badge/Sentinel--2-10%20m-4285F4?style=flat-square) ![Deep learning](https://img.shields.io/badge/U--Net-segmentation-555555?style=flat-square)
 
 </td>
+</tr>
+</table>
+
+## Data collection tools
+
+> Software for the field side of the data: collecting it where connectivity is poor, and supervising survey quality while teams are still in the field.
+
+<table>
+<tr>
 <td width="50%" valign="top">
 
-### [More on GitHub →](https://github.com/Abson-dev?tab=repositories&type=source)
-**All public repositories**
+### [Africa data collection platform](https://github.com/Abson-dev/africa-data-collection-platform) ![New](https://img.shields.io/badge/new-1f7a5a?style=flat-square)
+**Offline-first field data collection** · *Phase 1*
 
-Course material in statistics and spatial data science, poverty mapping for six West African countries, Earth observation scripts and earlier research code.
+Platform for collecting field data in low-connectivity areas, built by extending ODK: ODK Central hosted on AWS in Africa (af-south-1), a branded ODK Collect, and an encrypted SMS fallback when there is no data connection. The SMS codec and the bridge service into ODK Central are built and tested; the infrastructure is written and validated but not yet deployed.
+
+![Kotlin](https://img.shields.io/badge/Kotlin-Ktor-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![ODK](https://img.shields.io/badge/ODK-Central%20%7C%20Collect-555555?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-AWS-844FBA?style=flat-square&logo=terraform&logoColor=white) [![CI](https://github.com/Abson-dev/africa-data-collection-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/Abson-dev/africa-data-collection-platform/actions/workflows/ci.yml)
+
+</td>
+<td width="50%" valign="top">
+
+### [Beehive census fieldwork monitoring (ANSD)](https://github.com/Abson-dev/suivi-collecte-ruches-ansd)
+**Survey supervision · Senegal** · *in French*
+
+Supervision tools for the ANSD survey of beehive productivity in Senegal, collected on tablets with Survey Solutions: fieldwork progress by day, region and enumerator, **39 consistency checks**, and a ready-to-use list of interviews to reject. An R Shiny app and a Python script give identical results.
+
+![R Shiny](https://img.shields.io/badge/R-Shiny-276DC3?style=flat-square&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white) ![Survey Solutions](https://img.shields.io/badge/Survey%20Solutions-Stata%20export-CA8514?style=flat-square)
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+**[Browse all repositories →](https://github.com/Abson-dev?tab=repositories&type=source)**
+
+</div>
 
 ---
 
@@ -262,6 +321,9 @@ Course material in statistics and spatial data science, poverty mapping for six 
 ![QGIS](https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white)
 ![ArcGIS](https://img.shields.io/badge/ArcGIS-2C7AC3?style=for-the-badge&logo=arcgis&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Quarto](https://img.shields.io/badge/Quarto-75AADB?style=for-the-badge&logo=quarto&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![ODK](https://img.shields.io/badge/ODK%20%7C%20Survey%20Solutions-555555?style=for-the-badge)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
