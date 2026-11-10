@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Aboubacar HEMA&#39;s GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 36, Total Commits  : 2543, Total PRs: 3, Total Issues: 2, Contributed to (last year): 1</desc>
+        <title id="titleId">Aboubacar HEMA&#39;s GitHub Stats, Rank: B</title>
+        <desc id="descId">Total Stars Earned: 36, Total Commits  : 2563, Total PRs: 10, Total Issues: 17, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 159.22623304604534;
+        stroke-dashoffset: 146.78653069079448;
       }
     }
   
@@ -173,7 +173,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >2.5k</text>
+      >2.6k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -188,7 +188,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >3</text>
+      >10</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -203,7 +203,7 @@
         x="224.01"
         y="12.5"
         data-testid="issues"
-      >2</text>
+      >17</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
