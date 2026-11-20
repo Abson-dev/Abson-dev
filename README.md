@@ -23,6 +23,7 @@ I am a Research Analyst and Data Scientist at the **International Food Policy Re
 - **Research focus:** food security measurement, household shocks and coping strategies, political violence and conflict diffusion, climate variability, outbreak epidemiology and disease surveillance, impact evaluation (including mental health and psychosocial outcomes).
 - **Methods:** applied econometrics, spatial statistics, species distribution modelling, machine learning, AI agent development, survey harmonisation, cost-benefit analysis.
 - **Current direction:** operational early warning systems that combine satellite data, climate reanalysis and sparse ground records into calibrated, interpretable risk signals.
+- **Recognition:** IFPRI Development Strategies and Governance Unit, Next Generation Leader Award (2026).
 - **Teaching:** visiting lecturer in statistics, spatial data science and Python at ENSAE Dakar and Université Numérique Cheikh Hamidou Kane.
 
 ---
@@ -121,7 +122,7 @@ Ask how the 14 ENSA rounds were harmonised and what they show. **15 read-only to
 ### [WFP Chad data assistant](https://github.com/Abson-dev/wfp-chad-data-assistant)
 **AI agent · Resilience programme surveys, Chad**
 
-Ask how the 10 survey rounds of WFP's Integrated Resilience Programme (17,255 households) were merged, which validation checks fail, which data issues remain open, and what **55 indicators** show by round and region, with WFP's reconciled costs. The server refuses charts that join lean-season and post-harvest rounds. Evaluated on **18 questions** with expected values and caveats.
+Ask how the 10 survey rounds of WFP's Integrated Resilience Programme (17,255 households) were merged, which validation checks fail, which data issues remain open, and what **55 indicators** show by round and region, with WFP's reconciled costs, through **18 read-only tools**. The server refuses charts that join lean-season and post-harvest rounds. Evaluated on **27 questions** with expected values and caveats.
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-tool%20use-D97757?style=flat-square&logo=anthropic&logoColor=white) ![Skill](https://img.shields.io/badge/Claude%20Code-skill-555555?style=flat-square) [![Tests](https://github.com/Abson-dev/wfp-chad-data-assistant/actions/workflows/tests.yml/badge.svg)](https://github.com/Abson-dev/wfp-chad-data-assistant/actions/workflows/tests.yml)
 
@@ -166,7 +167,7 @@ Question-and-answer agent on Ituri's IDSR surveillance data, packaged as a Claud
 ### [WFP Chad resilience CBA: survey data merging](https://github.com/Abson-dev/WFP_Chad_Cost_Benefit_Analysis_data_merging)
 **Impact evaluation · Cost-benefit analysis · 2018 to 2023** · [Report](https://bookdown.org/aboubacarhema94/WFP_Chad_Cost_Benefit_Analysis_data_merging/)
 
-Household dataset for IFPRI's cost-benefit analysis of WFP's Integrated Resilience Programme in Chad: **10 survey rounds**, **17,255 households**, 626 columns from 26 modules, WFP costs reconciled by activity, a Shiny dashboard of checks and results, and a package for public release on IFPRI Dataverse. Known defects are documented, and each fix writes a new versioned file.
+Household dataset for IFPRI's cost-benefit analysis of WFP's Integrated Resilience Programme in Chad: **10 survey rounds**, **17,255 households**, **769 columns** (including 19 modules added in November 2026), WFP costs reconciled by activity, a Shiny dashboard of checks and results, and a package for public release on IFPRI Dataverse. Known defects are documented, and each fix writes a new versioned file.
 
 ![R](https://img.shields.io/badge/R-Markdown%20%7C%20Shiny-276DC3?style=flat-square&logo=r&logoColor=white) ![Stata](https://img.shields.io/badge/Stata-do--files-1A5F91?style=flat-square) ![Dataverse](https://img.shields.io/badge/IFPRI%20Dataverse-release-1f7a5a?style=flat-square)
 
@@ -198,7 +199,7 @@ Exposure measures for survey clusters (10, 25 and 50 km buffers) and the 519 Adm
 ### [Agrifood employment baseline, 17 African countries](https://github.com/Abson-dev/mcf-agrifood-scenarios-study) ![New](https://img.shields.io/badge/new-1f7a5a?style=flat-square)
 **Food systems · Labour · Data acquisition** · *in progress*
 
-Data acquisition for the Mastercard Foundation agrifood scenarios study with IFPRI: a verified source matrix and access register for the labour force and household surveys of 17 countries, with scripts that validate the register, build the Excel deliverables, download from the World Bank Microdata Library and block any microdata from being committed.
+Data acquisition for the Mastercard Foundation agrifood scenarios study with IFPRI: a verified source matrix and access register for the labour force and household surveys of 17 countries (data in hand for 14 of them, two as partial public samples; requests pending for the rest), with scripts that validate the register, build the Excel deliverables, download from the World Bank Microdata Library and block any microdata from being committed.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white) ![Surveys](https://img.shields.io/badge/LFS-EHCVM-1f7a5a?style=flat-square) [![CI](https://github.com/Abson-dev/mcf-agrifood-scenarios-study/actions/workflows/ci.yml/badge.svg)](https://github.com/Abson-dev/mcf-agrifood-scenarios-study/actions/workflows/ci.yml)
 
@@ -337,6 +338,7 @@ Supervision tools for the ANSD survey of beehive productivity in Senegal, collec
 |---|---|
 | **Experience** | Research Analyst, IFPRI (2022 to present) · Data Analyst, IOM (2022 to 2023): impact evaluations and MHPSS survey analysis in West Africa · Remote Sensing and ML Engineer, CIRAD (2020 to 2021): tree species distribution in agroforestry parklands |
 | **Education** | MITx MicroMasters, Data, Economics, and Design of Policy (2024) · MITx MicroMasters, Statistics and Data Science (2023) · Statistician Engineer with distinction, ENSAE Dakar (2020) · BSc Computer Science with distinction, University of Ouagadougou (2016) |
+| **Recognition** | IFPRI DSG Next Generation Leader Award (2026) |
 | **Languages** | French, Bambara, Senoufo (native) · English (professional) |
 
 ---
